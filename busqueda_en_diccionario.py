@@ -37,7 +37,7 @@ Parámetros:
 
     for llave, valor  in diccionario.items():  #.items() devuelve los pares key:value como una lista en una tupla (ver nodo)
         if llave == llave_buscada:
-            print(valor)
+            return valor
 
 
         
@@ -46,7 +46,7 @@ Parámetros:
             #es reemplazado por el valor "valor" de la llave (es decir un diccionario anidado) y llave_buscada como el segundo argumento.
             
             if found is not None:  #si la función recursiva no encontró un diccionario como valor (not None):
-                print(found)
+                return found
 
 
 
