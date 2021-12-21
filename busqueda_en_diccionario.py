@@ -53,6 +53,6 @@ Parámetros:
 
 
 # Probamos la función para ver si obtiene el valor anidado mas profundo:
-buscar_valor(diccionario_ejemplo, "llave A nivel 4")
+print(buscar_valor(diccionario_ejemplo, "llave A nivel 4"))
 
 # si funciona bien, devuelve "valor mas profundo"
