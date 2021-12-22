@@ -22,9 +22,6 @@ diccionario_ejemplo = {
 
 
 
-
-def buscar_valor(diccionario, llave_buscada):
-
 """
 Funcion para buscar el valor de la llave.
 Parámetros:
@@ -32,6 +29,9 @@ Parámetros:
 - llave_buscada: es el nombre de la llave que buscamos y de la cual vamos a obtener su valor.
 
 """
+def buscar_valor(diccionario, llave_buscada):
+
+
 
 
 
