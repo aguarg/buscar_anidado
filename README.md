@@ -8,7 +8,7 @@ La función tiene dos parámetros:
 
 
 
-Script with a function that allows to recursevely search for a specified key and return it as a value. 
+Script with a function that allows to recursively search for a specified key and return it as a value. 
 The function has two parameters:
 - diccionario: the dictionary to iterate through.
 - llave_buscada: the name of the key that holds the value we want to retrieve.
